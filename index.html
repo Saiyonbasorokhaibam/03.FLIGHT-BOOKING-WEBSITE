@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FlyManipur</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="logo">FlyManipur</div>
+    <nav class="nav-links">
+      <a href="#">Holiday Packages</a>
+      <a href="#">Flight Schedule</a>
+      <a href="#">Account Settings</a>
+      <a href="#">Manage Booking</a>
+    </nav>
+    <div class="nav-btns">
+      <button class="register-btn">Register</button>
+      <button class="signin-btn">Sign In</button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1>Hey Buddy! Where are you <span>Flying</span> to?</h1>
+      <a href="#" class="explore-btn">Explore Now →</a>
+
+      <div class="booking-box">
+        <div class="tabs">
+          <button class="tab active"><i class='bx bx-plane-alt'></i> Flight</button>
+          <button class="tab"><i class='bx bx-hotel'></i> Hotel</button>
+          <button class="tab"><i class='bx bx-car'></i> Rent a Car</button>
+        </div>
+
+        <form class="booking-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label>From</label>
+              <input type="text" value="Imphal, Manipur, IN" />
+            </div>
+
+            <div class="form-group">
+              <label>To</label>
+              <input type="text" value="New Delhi, India" />
+            </div>
+
+            <div class="form-group">
+              <label>Departure</label>
+              <input type="date" />
+            </div>
+
+            <div class="form-group">
+              <label>Return</label>
+              <input type="date" />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label>Passengers</label>
+              <select>
+                <option>1 Passenger</option>
+                <option>2 Passengers</option>
+                <option>3 Passengers</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label>Class</label>
+              <select>
+                <option>Economy</option>
+                <option>Business</option>
+              </select>
+            </div>
+
+            <button class="search-btn" type="submit">
+              Search Flights →
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
