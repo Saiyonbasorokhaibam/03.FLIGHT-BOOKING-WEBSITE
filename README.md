@@ -21,16 +21,6 @@ It’s inspired by premium travel platforms like MakeMyTrip and Expedia — desi
 
 ---
 
-## 🧱 Project Structure
-
-FlyManipur/
-│
-├── index.html # Main HTML page
-├── style.css # All CSS styles
-└── README.md # Project description (this file)
-
-
-
 ---
 
 ## 🧑‍💻 Technologies Used
@@ -58,7 +48,7 @@ You can replace this image with one from **Manipur** (like Loktak Lake, Kangla F
 🧑‍🎨 Credits
 Design Inspiration: Dribbble UI Mockup
 
-Developer: CodeDiva
+Developer: Saiyonba Sorokhaibam
 
 Location Concept: Manipur, India 🇮🇳
 
