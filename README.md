@@ -29,8 +29,7 @@ FlyManipur/
 ├── style.css # All CSS styles
 └── README.md # Project description (this file)
 
-yaml
-Copy code
+
 
 ---
 
